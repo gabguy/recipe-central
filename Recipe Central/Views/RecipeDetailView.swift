@@ -19,6 +19,7 @@ struct RecipeDetailView: View {
           .frame(maxWidth: .infinity, maxHeight: 300)
           .clipped()
         
+        // MARK: Text
         VStack(alignment: .leading) {
           // MARK: Ingredients
           VStack(alignment: .leading) {
